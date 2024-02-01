@@ -1,0 +1,29 @@
+nav{
+    background-color: aliceblue;
+}
+/* header */
+.nav__container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10%;
+    margin-left: 10%;
+    
+padding-top:40px ;
+}
+.nav-right ul{
+    display:flex;
+    gap:4em;
+    font-size: x-large;
+}
+.nav-right ul li {
+    list-style-type: none;
+}
+.nav_right ul li a{
+    text-decoration: none;
+    color: black;
+}
+.nav-cart{
+    display: flex;
+    gap:2em
+}
