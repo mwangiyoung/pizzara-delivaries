@@ -40,9 +40,10 @@ color: aliceblue;
     .hero-content__left{
         margin-left: 7%;
         margin-right: 7%;
+        margin-top: 5em;
     }
     .hero-content__left--paragraph{
-        font-size: larger;
+        font-size:medium;
     }
 .orange{
     color:#eea539;
