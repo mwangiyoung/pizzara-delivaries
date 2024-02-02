@@ -6,8 +6,8 @@ nav{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-right: 7%;
+    margin-left: 7%;
     
 padding-top:40px ;
 }
@@ -36,4 +36,18 @@ color: aliceblue;
 @media screen and( max-wdth=414px){
 
 }
-    
+    /* hero-content */
+    .hero-content__left{
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+    .hero-content__left--paragraph{
+        font-size: larger;
+    }
+.orange{
+    color:#eea539;
+}
+.hero-content__left--heading{
+    font-size: 70px;
+}
+
