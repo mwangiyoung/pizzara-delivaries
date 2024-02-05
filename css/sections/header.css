@@ -51,4 +51,20 @@ color: aliceblue;
 .hero-content__left--heading{
     font-size: 70px;
 }
+.hero-content__left--search area{
+padding: 100em;
+}
+.hero-content__left--button{
+    background-color: black;
+    color: aliceblue;
+}
+.hero-content__right{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction:row ;
+
+}
+.hero-content__right--smallpic{
+
+}
 
