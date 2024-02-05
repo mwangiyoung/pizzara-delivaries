@@ -1,70 +1,66 @@
-nav{
-    background-color: aliceblue;
+nav {
+  background-color: aliceblue;
 }
 /* header */
-.nav__container{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-right: 7%;
-    margin-left: 7%;
-    
-padding-top:40px ;
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 7%;
+  margin-left: 7%;
+
+  padding-top: 40px;
 }
-.nav-right ul{
-    display:flex;
-    gap:4em;
-    font-size: x-large;
+.nav-right ul {
+  display: flex;
+  gap: 4em;
+  font-size: x-large;
 }
 .nav-right ul li {
-    list-style-type: none;
+  list-style-type: none;
 }
 .nav-right ul li a {
-    color: black;
-    text-decoration: none;
-    
+  color: black;
+  text-decoration: none;
 }
-.nav-right ul li :hover{
-    background-color:#eea539 ;
-color: aliceblue;
+.nav-right ul li :hover {
+  background-color: #eea539;
+  color: aliceblue;
 }
-.nav-cart{
-    display: flex;
-    gap:2em;}
-
-
-@media screen and( max-wdth=414px){
-
-}
-    /* hero-content */
-    .hero-content__left{
-        margin-left: 7%;
-        margin-right: 7%;
-        margin-top: 5em;
-    }
-    .hero-content__left--paragraph{
-        font-size:medium;
-    }
-.orange{
-    color:#eea539;
-}
-.hero-content__left--heading{
-    font-size: 70px;
-}
-.hero-content__left--search area{
-padding: 100em;
-}
-.hero-content__left--button{
-    background-color: black;
-    color: aliceblue;
-}
-.hero-content__right{
-    display: flex;
-    justify-content: flex-end;
-    flex-direction:row ;
-
-}
-.hero-content__right--smallpic{
-
+.nav-cart {
+  display: flex;
+  gap: 2em;
 }
 
+@media screen and( max-wdth=414px) {
+}
+/* hero-content */
+.hero-content__left {
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-top: 5em;
+}
+.hero-content__left--paragraph {
+  font-size: medium;
+}
+.orange {
+  color: #eea539;
+}
+.hero-content__left--heading {
+  font-size: 70px;
+}
+.hero-content__left--search area {
+  padding: 100em;
+}
+.hero-content__left--button {
+  background-color: black;
+  color: aliceblue;
+}
+
+.hero-content__right {
+  margin-left: 7%;
+  margin-right: 7%;
+display: flex;
+align-self: center;
+  row-gap: 20em;
+}
