@@ -34,7 +34,12 @@ nav {
 
 @media screen and( max-wdth=414px) {
 }
+
 /* hero-content */
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+}
 .hero-content__left {
   margin-left: 7%;
   margin-right: 7%;
@@ -49,18 +54,39 @@ nav {
 .hero-content__left--heading {
   font-size: 70px;
 }
+.hero-content__left--cards {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  border-radius: 50px;
+  box-sizing: border-box;
+  font-weight:bold ;
+}
+.hero-content__left--images {
+  background-color:black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 60px;
+  color:black;
+  height: 60px;
+}
+.hero-content__left--images img {
+  width: 40px;
+
+}
 .hero-content__left--search area {
-  padding: 100em;
+  border: solid lightgray 1px;
+  width: 20%;
+  padding: 50em;
 }
 .hero-content__left--button {
   background-color: black;
   color: aliceblue;
 }
-
 .hero-content__right {
   margin-left: 7%;
   margin-right: 7%;
-display: flex;
-align-self: center;
-  row-gap: 20em;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
