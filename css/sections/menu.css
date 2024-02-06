@@ -1,0 +1,30 @@
+.menu__container {
+  display: flex;
+  justify-content: center;
+  margin-right: 7%;
+  margin-left: 7%;
+}
+.color {
+  color: #eea539;
+  font-size: larger;
+}
+.span {
+  color: #eea539;
+}
+.menu__left--span {
+  font-size: xx-large;
+}
+.menu__left--variaties ul{
+  display: flex;
+  justify-content:space-between;
+  list-style-type: none;
+  margin-left:10%;
+  margin-right: 10%;
+  font-weight: bold;
+  font-size:larger;
+}
+.menu__left--variaties-border{
+ border: solid darkgrey 1px; 
+ width: 50%; 
+ margin: 2.5em 0;
+}
