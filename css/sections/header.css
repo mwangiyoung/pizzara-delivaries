@@ -58,27 +58,36 @@ nav {
   display: flex;
   justify-content: space-between;
   padding-top: 20px;
-  border-radius: 50px;
+  border-radius: 5px;
   box-sizing: border-box;
   font-weight:bold ;
+ 
 }
 .hero-content__left--images {
-  background-color:black;
+ 
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 60px;
-  color:black;
-  height: 60px;
+  height: 20vh;
+  background-color:lightgrey;
+  flex-direction: column;
+  padding: 40px;
+
 }
 .hero-content__left--images img {
   width: 40px;
-
+}
+.img{
+  color: black; 
+  background-color:black;
 }
 .hero-content__left--search area {
+  display: flex;
   border: solid lightgray 1px;
-  width: 20%;
-  padding: 50em;
+  margin: 2rem;
+  padding:30px 7em ;
+  
 }
 .hero-content__left--button {
   background-color: black;
