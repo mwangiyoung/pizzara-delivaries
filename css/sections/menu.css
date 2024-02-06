@@ -25,6 +25,6 @@
 }
 .menu__left--variaties-border{
  border: solid darkgrey 1px; 
- width: 50%; 
+ width: 100%; 
  margin: 2.5em 0;
 }
