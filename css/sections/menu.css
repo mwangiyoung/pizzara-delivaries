@@ -28,3 +28,26 @@
  width: 100%; 
  margin: 2.5em 0;
 }
+.menu__left--cont{
+display: flex;
+justify-content:space-between;
+gap:5em;
+margin-left: 10%;
+margin-right: 10%;
+}
+.images{
+    width:20%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f7fb;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.cart{
+    background-color: black;
+    color:azure;
+padding: 30px;
+margin: 30px; ;
+}
