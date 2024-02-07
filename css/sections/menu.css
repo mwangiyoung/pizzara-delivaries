@@ -3,6 +3,7 @@
   justify-content: center;
   margin-right: 7%;
   margin-left: 7%;
+  margin-top: 50px;
 }
 .color {
   color: #eea539;
@@ -14,53 +15,94 @@
 .menu__left--span {
   font-size: xx-large;
 }
-.menu__left--variaties ul{
+.menu__left--variaties ul {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   list-style-type: none;
-  margin-left:10%;
+  margin-left: 10%;
   margin-right: 10%;
   font-weight: bold;
-  font-size:x-large;
-
+  font-size: x-large;
+}
+.menu__left {
+  margin-top: 50px;
 }
 
+.menu__left--variaties-border {
+  border: solid darkgrey 1px;
+  width: 100%;
+  margin: 2.5em 0;
+  margin-left: 10%;
+}
+.menu__left--cont {
+  display: flex;
+  justify-content: space-between;
+  gap: 5em;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.images {
+  width: 20%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f4f7fb;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.cart {
+  background-color: black;
+  color: azure;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
 
-.menu__left--variaties-border{
- border: solid darkgrey 1px; 
- width: 100%; 
- margin: 2.5em 0;
- margin-left: 10%;
- 
+  margin: 30px;
 }
-.menu__left--cont{
-display: flex;
-justify-content:space-between;
-gap:5em;
-margin-left: 10%;
-margin-right: 10%;
+.view {
+  background-color: #eea539;
+  display: flex;
+  margin: 0 auto;
+  display: block;
+  padding: 20px;
+  padding-right: 40px;
+  padding-left: 70px;
+
+  color: #f4f7fb;
 }
-.images{
-    width:20%;
-    height: 30%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #f4f7fb;
-    margin-top: 20px;
-    margin-bottom: 20px;
+.menu__pizza {
+  margin-top: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+
 }
-.cart{
-    background-color: black;
-    color:azure;
-padding: 30px;
-margin: 30px; ;
+.menu__right{
+  margin-left: 40px;
 }
-.view{
-    background-color: #eea539;
-    display: flex;
-    margin: 0 auto;
-    display: block;
-padding: 30px;
-color: #f4f7fb;
+.nav__right--or{
+  color: #eea539;
+  font-size:larger;
+  font-weight: bold;
+}
+.ot{
+  color:#eea539;
+  font-weight: bolder;
+  font-size: xx-large;
+  
+}
+.nav__right--p{
+  font-size: large;
+  font-weight:400;
+  margin-top: 30px;
+}
+.nav__right--columns{
+  margin-top: 40px;
+  background-color:#f4f7fb;
+}
+.nav__right--columns--col{
+  
+  background-color: black;
+  width: 50px;
 }
