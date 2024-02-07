@@ -104,6 +104,27 @@
   width:40px;
   background-color: black;
 }
+.nav__right--center{
+margin-left: 10%;
+display:flex;
+justify-content: center;
+
+}
 .co{
   color:#eea539;
+}
+.pa{
+  margin-top: 40px;
+  font-weight: bolder;
+  font-size: larger;
+}
+.style{
+  margin-top: 40px;
+  font-size: x-large;
+  font-weight: bolder;
+}
+.nav__right--emails{
+  display:flex;
+  flex-direction: row;
+
 }
