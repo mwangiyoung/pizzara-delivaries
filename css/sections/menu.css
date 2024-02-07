@@ -100,9 +100,10 @@
 .nav__right--columns{
   margin-top: 40px;
   background-color:#f4f7fb;
+  
 }
 .nav__right--columns--col{
   
   background-color: black;
-  width: 50px;
+  width: 40px;
 }
