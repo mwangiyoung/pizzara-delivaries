@@ -1,9 +1,39 @@
-.footer__section{
-    background-color:black;
-    height:50vh;
-    margin-left: 10%;
-    margin-right: 10%;
+.footer__section {
+  background-color: black;
+  height: 50vh;
+  color: aliceblue;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10em;
 }
-.footer{
-
+.footer {
+  padding-top: 6%;
+  row-gap: 2em;
+}
+.footer__links {
+  padding-top: 6%;
+}
+.footer__links ul li {
+  list-style-type: none;
+}
+.footer__move {
+  margin-bottom: 10%;
+}
+.im {
+  margin-bottom: 20%;
+  margin-top: 20px;
+}
+.search {
+  padding-top: 15%;
+}
+.sp {
+  margin-top: 15%;
+  padding: 30px;
+  padding-left: 20px;
+  padding-right: 40px;
+}
+.subscribe-button {
+  background-color: #eea539;
+  padding: 30px;
+  padding-right: 40px;
 }
