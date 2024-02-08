@@ -89,9 +89,14 @@ nav {
   padding:30px 7em ;
   
 }
+.hero-content--style{
+  padding: 20px;
+}
 .hero-content__left--button {
   background-color: black;
   color: aliceblue;
+  padding: 30px;
+  padding-left: 20px;
 }
 .hero-content__right {
   margin-left: 7%;

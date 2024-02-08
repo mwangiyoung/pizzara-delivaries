@@ -15,6 +15,15 @@
 }
 .footer__links ul li {
   list-style-type: none;
+
+}
+.footer__links ul li{
+    cursor: pointer;
+    
+}
+.footer__image{
+    display: flex;
+    justify-content: space-between;
 }
 .footer__move {
   margin-bottom: 10%;
