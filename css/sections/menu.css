@@ -1,9 +1,8 @@
 .menu__container {
   display: flex;
   justify-content: center;
-  margin-right: 7%;
-  margin-left: 7%;
   margin-top: 50px;
+  margin-right: 10%;
 }
 .color {
   color: #eea539;
@@ -19,8 +18,6 @@
   display: flex;
   justify-content: space-between;
   list-style-type: none;
-  margin-left: 10%;
-  margin-right: 10%;
   font-weight: bold;
   font-size: x-large;
 }
@@ -32,14 +29,12 @@
   border: solid darkgrey 1px;
   width: 100%;
   margin: 2.5em 0;
-  margin-left: 10%;
+
 }
 .menu__left--cont {
   display: flex;
   justify-content: space-between;
   gap: 5em;
-  margin-left: 10%;
-  margin-right: 10%;
 }
 .images {
   width: 20%;
@@ -74,7 +69,6 @@
 .menu__pizza {
   margin-top: 50px;
   margin-left: 10%;
-  margin-right: 10%;
   display: flex;
 }
 .menu__right {
@@ -90,45 +84,48 @@
   font-weight: bolder;
   font-size: xx-large;
 }
-.nav__right--p {
+.menu__right--p {
   font-size: large;
   font-weight: 400;
   margin-top: 30px;
 }
-.nav__right--columns {
+.menu__right--columns {
   margin-top: 40px;
+
   background-color: #f4f7fb;
-  gap:30em;
-}
-.nav__right--columns--col {
-  width:40px;
-  background-color: black;
-}
-.nav__right--center{
-margin-left: 10%;
-display:flex;
-justify-content: center;
 
 }
-.co{
-  color:#eea539;
+.menu__right--columns--col {
+  width: 40px;
+  background-color: black;
 }
-.pa{
+.menu__right--center {
+  margin-left: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.co {
+  color: #eea539;
+}
+.pa {
   margin-top: 40px;
   font-weight: bolder;
   font-size: larger;
 }
-.style{
+.style {
   margin-top: 40px;
   font-size: x-large;
   font-weight: bolder;
 }
-.nav__right--emails{
+.menu__right--emails {
   margin-top: 40px;
-margin-right: 0 auto;
-  display:flex;
-  flex-direction: row;
-gap:50px;
-background-color: #f4f7fb;
+  background-color: #f4f7fb;
+  gap: 40px;
+  padding: 40px;
+}
+.menu__right--center--icons {
+  display: flex;
+  justify-content: space-between;
 
 }
