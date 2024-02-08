@@ -124,7 +124,11 @@ justify-content: center;
   font-weight: bolder;
 }
 .nav__right--emails{
+  margin-top: 40px;
+margin-right: 0 auto;
   display:flex;
   flex-direction: row;
+gap:50px;
+background-color: #f4f7fb;
 
 }
