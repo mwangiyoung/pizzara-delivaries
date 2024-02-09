@@ -15,15 +15,13 @@
 }
 .footer__links ul li {
   list-style-type: none;
-
 }
-.footer__links ul li{
-    cursor: pointer;
-    
+.footer__links ul li {
+  cursor: pointer;
 }
-.footer__image{
-    display: flex;
-    justify-content: space-between;
+.footer__image {
+  display: flex;
+  justify-content: space-between;
 }
 .footer__move {
   margin-bottom: 10%;
@@ -35,6 +33,10 @@
 .search {
   padding-top: 15%;
 }
+.link ul li:hover {
+  background-color: #eea539;
+  color: aliceblue;
+}
 .sp {
   margin-top: 15%;
   padding: 30px;
@@ -45,4 +47,5 @@
   background-color: #eea539;
   padding: 30px;
   padding-right: 40px;
+  color: aliceblue;
 }
