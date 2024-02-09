@@ -20,6 +20,7 @@
   list-style-type: none;
   font-weight: bold;
   font-size: x-large;
+  cursor: pointer;
 }
 .menu__left {
   margin-top: 50px;
