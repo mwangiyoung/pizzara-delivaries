@@ -89,13 +89,13 @@ nav {
   gap: 1.3em;
   padding-left: 1em;
   box-shadow:0 0 5px ;
+  border: none;
   border-radius: 7px;
   
 }
 .hero-content--style{
   font-size: 1em;
-  width:100%
-  border:none;
+  width:100%;
   outline:none;
 
 }

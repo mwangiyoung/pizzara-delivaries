@@ -32,7 +32,7 @@
   margin-top: 50px;
 }
 
-.menu__left--variaties--border{
+.menu__left--variaties--border {
   border: solid darkgrey 1px;
   width: 100%;
   margin: 2.5em 0;
@@ -52,8 +52,8 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.color__menu{
-  color:grey;
+.color__menu {
+  color: grey;
 }
 .cart {
   background-color: black;
@@ -97,6 +97,9 @@
   font-size: large;
   font-weight: 400;
   margin-top: 30px;
+}
+.menu__right--links {
+  color: grey;
 }
 .menu__right--columns {
   margin-top: 40px;
