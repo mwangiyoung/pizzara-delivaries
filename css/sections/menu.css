@@ -20,8 +20,8 @@
   list-style-type: none;
   font-weight: bold;
   font-size: x-large;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .menu__left--variaties ul li:hover {
   background-color: #eea539;
@@ -77,7 +77,7 @@
 }
 .menu__pizza {
   margin-top: 50px;
-  margin-left: 10%;
+  /* margin-left: 10%; */
   display: flex;
 }
 .menu__right {

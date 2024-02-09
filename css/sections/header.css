@@ -85,19 +85,26 @@ nav {
 }
 .hero-content__left--search area {
   display: flex;
-  border: solid lightgray 1px;
-  margin: 2rem;
-  padding:30px 7em ;
+  align-items: center;
+  gap: 1.3em;
+  padding-left: 1em;
+  box-shadow:0 0 5px ;
+  border-radius: 7px;
   
 }
 .hero-content--style{
-  padding: 20px;
+  font-size: 1em;
+  width:100%
+  border:none;
+  outline:none;
+
 }
 .hero-content__left--button {
   background-color: black;
   color: aliceblue;
-  padding: 30px;
-  padding-left: 20px;
+  padding: 1.5em 3em;
+  border-radius: 11px;
+  
 }
 .hero-content__right {
   margin-left: 7%;
