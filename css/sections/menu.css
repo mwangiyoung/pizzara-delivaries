@@ -82,6 +82,7 @@
 }
 .menu__right {
   margin-left: 40px;
+
 }
 .nav__right--or {
   color: #eea539;
@@ -101,14 +102,29 @@
 .menu__right--links {
   color: grey;
 }
-.menu__right--columns {
+.menu__right--columns--col{
   margin-top: 40px;
+  
+}
+.menu__re{
+  background-color:#f4f7fb
 
-  background-color: #f4f7fb;
+}
+.about__us{
+  font-size: larger;
+}
+.col{
+  color:grey;
+}
+.menu{
+  background-color: white;
+  margin: 4em;
+
 }
 .menu__right--columns--col {
   width: 40px;
   background-color: black;
+  border-radius: 10em;
 }
 .menu__right--center {
   margin-left: 10%;
