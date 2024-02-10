@@ -15,6 +15,10 @@
 }
 .footer__links ul li {
   list-style-type: none;
+  font-size: x-large;
+  font-weight:800;
+  display: flex;
+  justify-content: space-around;
 }
 .footer__links ul li {
   cursor: pointer;

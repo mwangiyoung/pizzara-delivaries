@@ -22,7 +22,10 @@
   font-size: x-large;
   margin-top: 20px;
   margin-bottom: 20px;
+  border-bottom:4px solid grey ;
+
 }
+
 .menu__left--variaties ul li:hover {
   background-color: #eea539;
   color: aliceblue;
@@ -58,9 +61,9 @@
 .cart {
   background-color: black;
   color: azure;
-  padding: 10px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
 
   margin: 30px;
 }
@@ -70,10 +73,15 @@
   margin: 0 auto;
   display: block;
   padding: 20px;
-  padding-right: 40px;
+  padding-right: 70px;
   padding-left: 70px;
 
   color: #f4f7fb;
+}
+.c{
+  margin-top: 30px;
+  font-weight: bolder;
+  font-size:x-large;
 }
 .menu__pizza {
   margin-top: 50px;
